@@ -14,3 +14,4 @@ will be used from a mobile application created with Flutter.
 
 a package.json is created
 
+![](/IMG/json.png)
