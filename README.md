@@ -15,3 +15,10 @@ will be used from a mobile application created with Flutter.
 a package.json is created
 
 ![](/IMG/json.png)
+
+# 2 install the next module
+
+`$ npm install express`
+
+>Express is used for the server and is a framework of Node.js
+
