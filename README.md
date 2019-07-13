@@ -12,7 +12,9 @@ will be used from a mobile application created with Flutter.
 
 `$ npm init -y`
 
+
 a package.json is created
+
 
 ![](/IMG/json.png)
 
