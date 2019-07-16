@@ -23,7 +23,10 @@ a package.json is created
 
 `$ npm install express`
 
->Express is used for the server and is a framework of Node.js
+>|||Express is used for the server and is a framework of Node.js
+
+
+>|||Mongoose is used to connect to a database in this case with Mongodb, Mongoose is only a connection mode and not a database. 
 
 
 
