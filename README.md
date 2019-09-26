@@ -27,6 +27,8 @@ a package.json is created
 
 `$ npm install express mongoose morgan cors faker`
 
+![](/IMG/modules.png)
+
 
 >--> express: is used for the server and is a framework of Node.js
 
