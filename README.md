@@ -25,7 +25,7 @@ a package.json is created
 # 2 install the next module
 
 
-`$ npm install express`
+`$ npm install express mongoose morgan`
 
 
 >-->express is used for the server and is a framework of Node.js
@@ -36,9 +36,9 @@ a package.json is created
 
 
 
->-->morgan is used
+>-->morgan This is a module that allows me to see console requests that are coming
 
->--> 
+>-->cors 
 
 
 
