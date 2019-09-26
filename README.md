@@ -25,7 +25,7 @@ a package.json is created
 # 2 install the next module
 
 
-`$ npm install express mongoose morgan cors`
+`$ npm install express mongoose morgan cors faker`
 
 
 >--> express: is used for the server and is a framework of Node.js
