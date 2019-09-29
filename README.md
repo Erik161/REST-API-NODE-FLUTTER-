@@ -29,24 +29,24 @@ a package.json is created
 
 ![](/IMG/modules.png)
 
-
->--> express: is used for the server and is a framework of Node.js
-
-
-
->--> mongoose: is used to connect to a database in this case with Mongodb, Mongoose is only a connection mode and not a database. 
+### $ express
+> is used for the server and is a framework of Node.js
 
 
-
->--> morgan: This is a module that allows me to see console requests that are coming
-
-
-
->--> cors: used so that any other server can communicate with my server
+### $ mongoose
+> is used to connect to a database in this case with Mongodb, Mongoose is only a connection mode and not a database. 
 
 
+### $ morgan
+> This is a module that allows me to see console requests that are coming
 
->--> faker: generates false data, this module simply we call it and we ask for example 10 names or 10 numbers of people and this module generates it by itself so that we are not writing it
+
+### $ cors
+> used so that any other server can communicate with my server
+
+
+### faker
+> generates false data, this module simply we call it and we ask for example 10 names or 10 numbers of people and this module generates it by itself so that we are not writing it
 
 
 
