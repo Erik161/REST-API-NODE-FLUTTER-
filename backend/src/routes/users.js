@@ -15,7 +15,7 @@ router.get('/api/users', async (req, res)=> {
         });
     }
 
-    res.json('User List');
+    res.json('User list');
 });
 
 router.get('/api/users/create', (req, res) => {
