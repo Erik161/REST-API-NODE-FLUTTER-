@@ -7,4 +7,5 @@ async function connect(){
 console.log('Database:Connected');
 };
 
-module.exports = {connect}
+module.exports = {connect};
+
