@@ -49,6 +49,9 @@ a package.json is created
 > generates false data, this module simply we call it and we ask for example 10 names or 10 numbers of people and this module generates it by itself so that we are not writing it
 
 
+# 3 Create New Flutter Project
+
+`$ flutter create userapp`
 
 
 
