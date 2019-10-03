@@ -5,10 +5,10 @@ const User = require('../models/User');
 const faker = require('faker');
 
 
-router.get('/api/users', (req, res) =>{
-    res.json('User list');
+router.get('/api/users', async (req, res) =>{
+    const users = await User.find();
+    res.json({users});
 } );
-
 
 
 
@@ -21,13 +21,10 @@ router.get('/api/users/create', async (req, res)=> {
         });
     }
 
-    res.json('User list');
-});
-
-router.get('/api/users/create', (req, res) => {
     res.json({message: '5 Users created'});
-
 });
+
+
 
 module.exports = router;
 
