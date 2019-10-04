@@ -21,8 +21,8 @@ will be used from a mobile application created with Flutter.
 > Enter the following link:(https://flutter.dev/docs/get-started/install)
 where it tells you how to download Flutter according to your operating system
 
+![flutter](https://user-images.githubusercontent.com/26189854/66188028-7adcd180-e643-11e9-9b64-f635ba9ef219.gif)
 
-![](/IMG/installflutter.png)
 
 
 
