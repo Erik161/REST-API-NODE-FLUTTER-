@@ -7,8 +7,25 @@ will be used from a mobile application created with Flutter.
 
 
 
+# 1 Install Node.js
 
-# 1 we started a node module
+
+
+# 2 Install MongoDB
+
+
+
+# 3 Install Flutter
+> Enter the following link:(https://flutter.dev/docs/get-started/install)
+where it tells you how to download Flutter according to your operating system
+
+
+![](/IMG/installflutter.png)
+
+
+
+
+# 1 We started a node module
 
 
 >add the following command in the console to start a node module
@@ -22,7 +39,7 @@ a package.json is created
 ![](/IMG/json.png)
 
 
-# 2 install the next module
+# 2 Install the next module
 
 
 `$ npm install express mongoose morgan cors faker`
@@ -49,9 +66,14 @@ a package.json is created
 > generates false data, this module simply we call it and we ask for example 10 names or 10 numbers of people and this module generates it by itself so that we are not writing it
 
 
-# 3 Create New Flutter Project
+
+
+
+
+# 4 Create New Flutter Project
 
 `$ flutter create userapp`
+
 
 
 
