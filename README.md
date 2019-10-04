@@ -9,10 +9,12 @@ will be used from a mobile application created with Flutter.
 
 # 1 Install Node.js
 
+![](/IMG/nodjs.png)
 
 
 # 2 Install MongoDB
 
+![](/IMG/mongodb.png)
 
 
 # 3 Install Flutter
