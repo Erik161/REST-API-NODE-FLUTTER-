@@ -7,6 +7,23 @@ will be used from a mobile application created with Flutter.
 
 
 
+# 1 Install Node.js
+
+
+
+# 2 Install MongoDB
+
+
+
+# 3 Install Flutter
+> Enter the following link:(https://flutter.dev/docs/get-started/install)
+where it tells you how to download Flutter according to your operating system
+
+
+![](/IMG/installflutter.png)
+
+
+
 
 # 1 We started a node module
 
@@ -49,13 +66,7 @@ a package.json is created
 > generates false data, this module simply we call it and we ask for example 10 names or 10 numbers of people and this module generates it by itself so that we are not writing it
 
 
-# 3 Install Flutter
 
-> Enter the following link:(https://flutter.dev/docs/get-started/install)
-where it tells you how to download Flutter according to your operating system
-
-
-![](/IMG/installflutter.png)
 
 
 
