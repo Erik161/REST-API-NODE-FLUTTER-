@@ -9,14 +9,14 @@ will be used from a mobile application created with Flutter.
 
 # 1 Install Node.js
 
-> Enter the following link:(https://www.mongodb.com)
+> Enter the following link:(https://nodejs.org/es/) 
 where it tells you how to download Flutter according to your operating system
 
 ![](/IMG/nodjs.png)
 
 
 # 2 Install MongoDB
-> Enter the following link:(https://nodejs.org/es/)
+> Enter the following link:(https://www.mongodb.com)
 where it tells you how to download Flutter according to your operating system
 
 ![](/IMG/mongodb.png)
