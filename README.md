@@ -9,10 +9,15 @@ will be used from a mobile application created with Flutter.
 
 # 1 Install Node.js
 
+> Enter the following link:(https://nodejs.org/es/) 
+where it tells you how to download Flutter according to your operating system
+
 ![](/IMG/nodjs.png)
 
 
 # 2 Install MongoDB
+> Enter the following link:(https://www.mongodb.com)
+where it tells you how to download Flutter according to your operating system
 
 ![](/IMG/mongodb.png)
 
@@ -27,7 +32,7 @@ where it tells you how to download Flutter according to your operating system
 
 
 
-# 1 We started a node module
+# 4 We started a node module
 
 
 >add the following command in the console to start a node module
@@ -41,7 +46,7 @@ a package.json is created
 ![](/IMG/json.png)
 
 
-# 2 Install the next module
+# 5 Install the next module
 
 
 `$ npm install express mongoose morgan cors faker`
@@ -72,7 +77,7 @@ a package.json is created
 
 
 
-# 4 Create New Flutter Project
+# 6 Create New Flutter Project
 
 `$ flutter create userapp`
 
