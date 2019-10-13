@@ -77,7 +77,6 @@ a package.json is created
 
 
 
-
 # 6 Create New Flutter Project
 
 `$ flutter create userapp`
