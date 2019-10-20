@@ -24,6 +24,13 @@ class _HomePageState extends State<HomePage> {
   http.Response response = await http.get('http://localhost:4000/api/users');
   debugPrint(response.body);
   }
+ 
+ @override
+
+  void initState(){
+    super.initState();
+    getUsers();
+  }
 
   Widget build(BuildContext context){
     return Scaffold(
