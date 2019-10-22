@@ -21,7 +21,7 @@ class HomePage extends StatefulWidget{
 
 class _HomePageState extends State<HomePage> {
   getUsers() async{
-  http.Response response = await http.get('http://localhost:4000/api/users');
+  http.Response response = await http.get('http://10.0.2.2:4000/api/users');
   debugPrint(response.body);
   }
  
