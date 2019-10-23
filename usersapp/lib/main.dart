@@ -20,9 +20,12 @@ class HomePage extends StatefulWidget{
 }
 
 class _HomePageState extends State<HomePage> {
+
+  Map data;
+
   getUsers() async{
   http.Response response = await http.get('http://10.0.2.2:4000/api/users');
-  debugPrint(response.body);
+  data = json.decode(response.body);
   }
  
  @override
