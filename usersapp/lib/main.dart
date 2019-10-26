@@ -22,10 +22,16 @@ class HomePage extends StatefulWidget{
 class _HomePageState extends State<HomePage> {
 
   Map data;
+  List usersData;
 
   getUsers() async{
   http.Response response = await http.get('http://10.0.2.2:4000/api/users');
   data = json.decode(response.body);
+
+  setState(() {
+    usersData = data['users']; 
+  });
+
   }
  
  @override
@@ -40,7 +46,8 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(title: Text('User List'),
       backgroundColor: Colors.indigo[900],
        ),
-      body: ListView.builder(), 
-      );
+      body: ListView.builder(itemCount: usersData == null ? 0 : usersData.length, ), 
+      
+      ); //ListView.builder
   }
 }
