@@ -46,8 +46,40 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(title: Text('User List'),
       backgroundColor: Colors.indigo[900],
        ),
-      body: ListView.builder(itemCount: usersData == null ? 0 : usersData.length, ), 
+      body: ListView.builder(itemCount: usersData == null ? 0 : usersData.length,
       
-      ); //ListView.builder
+      itemBuilder: (BuildContext context, int index ){
+        return Card(
+          child: Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: Row(
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.all(12.0),
+                  child: Text("$index", style: TextStyle(fontSize:20.0,
+                  fontWeight: FontWeight.w500
+                   )),
+                ),
+                CircleAvatar(backgroundImage: NetworkImage(usersData[index]['avatar']),
+                ),
+              Padding(padding: const EdgeInsets.all(10.0),
+              child: Text("${usersData[index]["firstName"]} ${usersData[index]["lastName"]}}",
+              style: TextStyle(
+                fontSize: 20.0,
+                fontWeight: FontWeight.w700
+              ),
+              ),
+          
+
+
+              ],
+            ),
+          ),
+        )
+      },
+
+       ), 
+      
+      ); 
   }
 }
